@@ -1,0 +1,78 @@
+#main {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+  #main > div {
+    width: 30%;
+  }
+  #main > div ~ div {
+    width: 70%;
+  }
+  div > div > img {
+    height: 95%;
+    width: 100%;
+    margin-top: -22px;
+    position: relative;
+    animation-name: second;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+  }
+  @keyframes second {
+    from {
+      width: 80px;
+    }
+    to {
+      width: 365px;
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    font-style: oblique;
+    color: red;
+    background-color: black;
+    margin-top: 0;
+  }
+  body{
+    background-color: black;
+  }
+  body > div {
+    background: url("mor.jpg");
+
+  }
+  #main1 > img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-left: 730px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: image;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
+  @keyframes image {
+    from {
+      width: 20px;
+    }
+    to {
+      width: 70px;
+    }
+  }
+  #main1 > h2 {
+    margin-top: -100px;
+  }
+  
+  p,
+  li {
+    color: white;
+    margin-left: 30px;
+  }
+  h2 {
+    color: red;
+    margin-left: 30px;
+    text-decoration: underline;
+  }
