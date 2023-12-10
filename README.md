@@ -15,4 +15,4 @@ Created a dynamic and visually engaging superhero resume using HTML and CSS. Thi
   * Git 
 
 ### Screenshot
-!(Image)[https://i.ibb.co/Ny2zNyB/Screenshot-36.png]
+![Image](https://i.ibb.co/Ny2zNyB/Screenshot-36.png)
